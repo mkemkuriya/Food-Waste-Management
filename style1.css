@@ -1,0 +1,50 @@
+.register-box{
+
+    text-align: center;
+    height: 550px;
+    width: 480px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    opacity: 0.89;
+
+    /* max-width: 800px; */
+
+    padding: 10px;
+
+    background-color: rgb(167, 167, 167);
+
+    opacity: 0.85;
+
+}
+.input{
+    text-align: center;
+    display: grid;
+    padding: auto;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.input input{
+    padding: 10px;
+    size: 8px;
+    background-color: white;
+}
+select{
+    padding: 10px;
+    size: 8px;
+    background-color: white; 
+}
+.button{
+    display: grid;
+    margin-top: 20px;
+    transition: 0.15s;
+}
+button:hover{
+    background-color: rgb(187, 187, 239);
+    color: white;
+    transform: scale(105%);
+}
+button{
+    width: 1fr;
+}
